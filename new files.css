@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* create body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*create header1 */
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/*create menu*/
+#menu {
+    background-color: #333;
+    text-align: center;
+}
+
+/*create menu ul*/
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*create menu ul li*/
+#menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/*create a*/
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*set form*/
+form {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+/*set label*/
+
+label {
+    font-weight: bold;
+}
+
+/*set input type text*/
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+/*set input type submit*/
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
